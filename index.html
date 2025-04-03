@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="stylesheet" href="estilos/styles.css">
     <link rel="stylesheet" href="estilos/media-querry.css">
 </head>
@@ -17,7 +18,20 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-                    
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            Person
+                            </span>
+                        <input type="email" name="email" id="ilogin" placeholder="Seu e-mail" autocomplete="email">
+                        <label for="ilogin"></label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            vpn_key
+                            </span>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="password">
+                        <label for="isenha"></label>
+                    </div>
                 </form>
             </div>
         </section>
