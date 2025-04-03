@@ -19,17 +19,21 @@ main{
     position: relative;
 }
 
-#login{
+section#login{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.726);
+
+    transition: width 0.3s, heith 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
