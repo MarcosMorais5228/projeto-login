@@ -78,11 +78,11 @@ div.campo input{
     background-color: #63d6d2;
     font-size: 1em;
     width: calc(100% - 44.4px);
-    transform: translateY(-13px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-13px);
 }
 
 div.campo input:focus-within{
